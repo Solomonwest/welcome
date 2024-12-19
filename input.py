@@ -13,7 +13,7 @@ input.config(font=('Ink Free',50))
 btn = tk.Button(screen, text='click me',
                 bg='#23FF43',
                 font=('Ink Free',30))
-btn.config(command='submit')
+btn.config(command= submit)
 btn.pack()
 input.pack()
 screen.mainloop()
